@@ -1,0 +1,26 @@
+.wrapperEgg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  text-align: center;
+  box-sizing: border-box;
+  .egg {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+  }
+  .img {
+    width: 1.5rem;
+    animation: latir 3s infinite alternate ease-in-out;
+  }
+  @keyframes latir {
+    from {
+      width: 1.5rem;
+    }
+    to {
+      width: 3rem;
+    }
+  }
+}

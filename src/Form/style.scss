@@ -1,0 +1,74 @@
+.wrapperForm {
+  width: 900px;
+  margin: 1rem auto;
+  text-align: center;
+  .form {
+    .wrapperInputs {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 0 0.5rem 0;
+      .wrapperInput {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        .label {
+          font-size: 0.9rem;
+          margin: 0 0 0.5rem 0;
+        }
+        .input {
+          width: 320px;
+          padding: 0.5rem 1rem;
+          border: 1px solid #601085;
+          border-radius: 2rem;
+          outline: none;
+          box-sizing: border-box;
+          background: #ffffff;
+          &:focus {
+            background: #230431;
+            color: #fff;
+            border: 1px solid #ffffff;
+          }
+        }
+      }
+    }
+    .wrapperButton {
+      display: flex;
+      justify-content: flex-end;
+      .button {
+        width: 120px;
+        padding: 0.5rem 2rem;
+        border: none;
+        border-radius: 2rem;
+        color: #fff;
+        background: #650f8d;
+        transition: background 0.3s ease, width 0.3s ease;
+        outline: none;
+        &:hover {
+          width: 150px;
+          cursor: pointer;
+          background: #3c0755;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 750px) {
+  .wrapperForm {
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .form {
+      padding: 0.5rem;
+      box-sizing: border-box;
+      .wrapperInputs {
+        flex-direction: column;
+        .wrapperInput {
+          margin: 0 0 1rem 0;
+        }
+      }
+    }
+  }
+}

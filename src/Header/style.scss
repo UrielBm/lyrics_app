@@ -1,0 +1,17 @@
+.header {
+  width: 100%;
+  text-align: center;
+  padding: 1.5rem 0;
+  box-sizing: border-box;
+  background-color: rgba(137, 35, 255, 0.867);
+  .wrapperTitle {
+    width: 300px;
+    margin: 0 auto;
+    padding: 0.2rem 1rem;
+    box-sizing: border-box;
+    background-color: rgba(77, 77, 255, 0.667);
+    &:hover {
+      transform: rotate(7deg);
+    }
+  }
+}

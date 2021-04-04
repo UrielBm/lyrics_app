@@ -1,0 +1,14 @@
+.wrapperError {
+  width: 100%;
+  padding: 1rem 2rem;
+  text-align: center;
+  background: #a31a1a;
+  margin: 1rem 0;
+  .error {
+    font-size: 1.4rem;
+    color: #ffffff;
+    &::first-letter {
+      text-transform: uppercase;
+    }
+  }
+}
